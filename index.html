@@ -49,16 +49,26 @@
             text-decoration:none;
         }
 
-        .grid-container {
+        .left-grid-container {
             display: grid;
             grid-template-columns: 120px 200px;
             align-content: space-evenly;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center
         }
     </style>
 </head>
 <body>
 <p><img src="img_cutecat.jpeg" alt="" width="10%" height="10%" ></p>
-<center><h1 style="font-size: 250%" id="-">貓咪小倉庫@Icecrown(TW) Horde</h1></center>
+<div class="header-container">
+        <h1 style="font-size: 250%" id="-">貓咪小倉庫@Icecrown(TW) Horde</h1>
+        <img src="horde_symbol.png" alt="" width="5%" height="5%"/>
+</div>
+
 <div style="background-color: #fceff2; border: 4px double #ff6699; font-size: 100%; padding: 20px;">
     <center>我們來自：寒冰皇冠、冰風崗哨、尖石、暗影之月、語風、眾星之子、阿薩斯、狂熱之刃、地獄吼</center>
     <center>小可愛貓咪和小夥伴們的小倉庫</center>
@@ -68,7 +78,7 @@
         <h1><a href="guidelines.html">>>>公會須知<<<</a>（<strong>必讀</strong>）</h1>
         </div>
     </center>
-<div class="grid-container">
+<div class="left-grid-container">
     <center><i class="fas fa-paw" style="font-size:48px;color:pink" ></i></center>
     <span><a style="font-size: 200%"; href="oldfriends.html">給回鍋的貓咪們</a></span>
     <center><i class="fas fa-user-friends" style="font-size:48px;color:#FFE933" ></i></center>
