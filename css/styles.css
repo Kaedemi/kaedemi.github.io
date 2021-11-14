@@ -1,0 +1,51 @@
+body, html{
+  cursor: url(https://cdn.custom-cursor.com/db/4656/32/arrow2662.png), pointer;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    background-image: url('../images/bg.jpg');
+    font-size: 85%;
+    margin: 0;
+}
+
+h2 {
+    font-size: 220%;
+    font-weight: 400;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+.timer {
+    font-size: 180%;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+.timer b {
+    color: rgb(253, 99, 125);
+}
+
+a{
+    cursor:url(https://cdn.custom-cursor.com/db/cursor/32/Cursed_Cat_Cursor.png), pointer;
+    text-decoration:none;
+}
+
+.left-grid-container {
+    display: grid;
+    grid-template-columns: 120px 200px;
+    align-content: space-evenly;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
