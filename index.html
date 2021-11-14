@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -10,6 +9,10 @@
     <title>貓咪小倉庫@Icecrown(TW)</title>
     <script src="https://kit.fontawesome.com/f2af29c3d4.js" crossorigin="anonymous"></script>
     <style>
+        body, html{
+          cursor: url(https://cdn.custom-cursor.com/db/4656/32/arrow2662.png), pointer;
+        }
+
         body {
             -webkit-font-smoothing: antialiased;
             font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
@@ -41,52 +44,56 @@
             color: rgb(253, 99, 125);
         }
 
+        a{
+            cursor:url(https://cdn.custom-cursor.com/db/cursor/32/Cursed_Cat_Cursor.png), pointer;
+            text-decoration:none;
+        }
+
+        .left-grid-container {
+            display: grid;
+            grid-template-columns: 120px 200px;
+            align-content: space-evenly;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
     </style>
 </head>
-
 <body>
 <p><img src="img_cutecat.jpeg" alt="" width="10%" height="10%" ></p>
-<center><h1 style="font-size: 250%" id="-">貓咪小倉庫@Icecrown(TW) Horde</h1></center>
+<div class="header-container">
+        <h1 style="font-size: 250%" id="-">貓咪小倉庫@Icecrown(TW) Horde</h1>
+        <img src="horde_symbol.png" alt="" width="5%" height="5%"/>
+</div>
 
 <div style="background-color: #fceff2; border: 4px double #ff6699; font-size: 100%; padding: 20px;">
     <center>我們來自：寒冰皇冠、冰風崗哨、尖石、暗影之月、語風、眾星之子、阿薩斯、狂熱之刃、地獄吼</center>
     <center>小可愛貓咪和小夥伴們的小倉庫</center>
 </div>
-
     <center>
         <div class="btn-group">
         <h1><a href="guidelines.html">>>>公會須知<<<</a>（<strong>必讀</strong>）</h1>
         </div>
     </center>
-
-<ul style="list-style: none;">
-    <li>
-        <i class="fas fa-paw" style="font-size:48px;color:pink" ></i>
-        <span><a style="font-size: 200%"; href="oldfriends.html">給回鍋的貓咪們</a></span>
-    </li>
-    <li>
-        <i class="fas fa-user-friends" style="font-size:48px;color:#FFE933" ></i>
-        <span><a style="font-size: 200%"; href="raid.html">團隊活動</a></span>
-    </li>
-    <li>
-        <i class="fas fa-calendar-week" style="font-size:48px;color:white" ></i>
-        <span><a style="font-size: 200%"; href="activities.html">公會活動</a></span>
-    </li>
-    <li>
-        <i class="fab fa-discord" style="font-size:48px;color:#9C33FF" ></i>
-        <span><a style="font-size: 200%"; href="voicechat.html">公會語音</a></span>
-    </li>
-    <li>
-        <i class="fas fa-puzzle-piece" style="font-size:48px;color:#33FFB5" ></i>
-        <span><a style="font-size: 200%"; href="useful.html">插件和網路資源</a></span>
-    </li>
-</ul>
-
+<div class="left-grid-container">
+    <center><i class="fas fa-paw" style="font-size:48px;color:pink" ></i></center>
+    <span><a style="font-size: 200%"; href="oldfriends.html">給回鍋的貓咪們</a></span>
+    <center><i class="fas fa-user-friends" style="font-size:48px;color:#FFE933" ></i></center>
+    <span><a style="font-size: 200%"; href="raid.html">團隊活動</a></span>
+    <center><i class="fas fa-calendar-week" style="font-size:48px;color:white" ></i></center>
+    <span><a style="font-size: 200%"; href="activities.html">公會活動</a></span>
+    <center><i class="fab fa-discord" style="font-size:48px;color:#9C33FF" ></i></center>
+    <span><a style="font-size: 200%"; href="voicechat.html">公會語音</a></span>
+    <center><i class="fas fa-puzzle-piece" style="font-size:48px;color:#33FFB5" ></i></center>
+    <span><a style="font-size: 200%"; href="useful.html">插件和網路資源</a></span>
+</div>
 <p>其他內容：</p>
 <ul>
 <li><a href="baseball.html">野球関連</a></li>
 </ul>
 <hr>
-  
 </body>
 </html>
